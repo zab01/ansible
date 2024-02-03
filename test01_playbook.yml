@@ -1,12 +1,11 @@
 ---
 - name: teste01 playbook
   hosts: all
-
   tasks:
   - name: Show hello
     debug:
-    msg: "Hello!"
+      msg: "Hello!"
 
   - name: Show var content
     debug:
-    msg: "question 01 answer: {{ test_answer_01 }}"
+      msg: "question 01 answer: {{ test_answer_01 }}"
