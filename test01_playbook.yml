@@ -1,5 +1,5 @@
 ---
-- name: test01
+- name: teste01 playbook
   hosts: all
 
   tasks:
