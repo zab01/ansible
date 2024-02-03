@@ -1,0 +1,12 @@
+---
+- name: test01
+  hosts: all
+
+  tasks:
+  - name: Show hello
+    debug:
+    msg: "Hello!"
+
+  - name: Show var content
+    debug:
+    msg: "question 01 answer: {{ test_answer_01 }}"
