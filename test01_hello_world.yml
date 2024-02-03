@@ -4,3 +4,6 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
+    - name: Show var content
+      debug:
+        msg: "question 01 answer: {{ test_answer_01 }}"
